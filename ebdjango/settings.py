@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['django-env.eba-smmbisfz.us-west-2.elasticbeanstalk.com',
 '127.0.0.1',
 'awseb--awseb-7ddztkwwiy9a-654882209.us-west-2.elb.amazonaws.com',  # ELB URL
-'172.31.1.242']
+'172.31.1.242',
+'172.31.3.36']
 
 
 # Application definition
