@@ -26,7 +26,9 @@ SECRET_KEY = '3v@^*3x_(!*oq72o=$q_xcryy&h$lxabq8jli7&x$j#6w5(-o_'
 DEBUG = True
 
 ALLOWED_HOSTS = ['django-env.eba-smmbisfz.us-west-2.elasticbeanstalk.com',
-'127.0.0.1']
+'127.0.0.1',
+'awseb--awseb-7ddztkwwiy9a-654882209.us-west-2.elb.amazonaws.com',  # ELB URL
+'172.31.1.242']
 
 
 # Application definition
