@@ -25,8 +25,6 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: "us-west-2"
   app: $EB_APP_NAME
   env: $EB_ENV_NAME
@@ -34,6 +32,8 @@ deploy:
   skip_cleanup: true
   on:
     branch: main
+  dpl_version: 2 
+
 
 after_success:
   - coveralls
