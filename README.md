@@ -1,4 +1,4 @@
-Software Engineering project
+Software Engineering Project
 
 [![Build Status](https://api.travis-ci.com/thejaswinidm/swe1-app.svg?branch=main)](https://travis-ci.com/thejaswinidm/swe1-app)
 
