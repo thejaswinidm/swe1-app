@@ -27,10 +27,10 @@ deploy:
   provider: elasticbeanstalk
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
-  region: "us-east-1"
+  region: "us-west-2"
   app: $EB_APP_NAME
   env: $EB_ENV_NAME
-  bucket_name: "elasticbeanstalk-us-east-1-891377008581"
+  bucket_name: "elasticbeanstalk-us-west-2-523272053639"
   skip_cleanup: true
   on:
     branch: main
