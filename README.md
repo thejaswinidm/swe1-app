@@ -1,6 +1,6 @@
 Software Engineering project
 
-[![Build Status](https://travis-ci.com/thejaswinidm/swe1-app.svg?branch=main)](https://travis-ci.com/thejaswinidm/swe1-app)
+[![Build Status](https://api.travis-ci.com/thejaswinidm/swe1-app.svg?branch=main)](https://travis-ci.com/thejaswinidm/swe1-app)
 
 run the following commands before submitting.
 1. black .
